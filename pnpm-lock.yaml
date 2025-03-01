@@ -11,9 +11,6 @@ importers:
       lucide-svelte:
         specifier: ^0.477.0
         version: 0.477.0(svelte@5.20.5)
-      svelte-radix:
-        specifier: ^2.0.1
-        version: 2.0.1(svelte@5.20.5)
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250224.0
@@ -2024,12 +2021,6 @@ packages:
       svelte:
         optional: true
 
-  svelte-radix@2.0.1:
-    resolution: {integrity: sha512-YrX44Dj+Rp6YZuPSjdmyd6P8QTkb2NXwySUCZYzjwkP6Cl3dZaTBPPeaSOutP3v3ycQ2XwyNOpyn4p0QcN+uYQ==}
-    engines: {node: '>=18.0.0', npm: '>=7.0.0'}
-    peerDependencies:
-      svelte: ^5.0.0
-
   svelte@5.20.5:
     resolution: {integrity: sha512-dpu2lTPVsAAgZFKpF7A9741sBCdXGogfxFU4aQeVgun7GVNCSVheTzj0FsT7g9OsLhBaMX4lKLwVIvmzQGytmQ==}
     engines: {node: '>=18'}
@@ -3900,10 +3891,6 @@ snapshots:
       postcss: 8.5.3
       postcss-scss: 4.0.9(postcss@8.5.3)
     optionalDependencies:
-      svelte: 5.20.5
-
-  svelte-radix@2.0.1(svelte@5.20.5):
-    dependencies:
       svelte: 5.20.5
 
   svelte@5.20.5:
