@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      lucide-svelte:
-        specifier: ^0.477.0
-        version: 0.477.0(svelte@5.20.5)
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250224.0
@@ -60,6 +56,9 @@ importers:
       globals:
         specifier: ^15.14.0
         version: 15.15.0
+      lucide-svelte:
+        specifier: ^0.477.0
+        version: 0.477.0(svelte@5.20.5)
       prettier:
         specifier: ^3.4.2
         version: 3.5.2
