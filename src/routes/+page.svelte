@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as Menubar from '$lib/components/ui/menubar';
+	import { Separator } from '$lib/components/ui/separator/index';
 </script>
 
 <div class="sm:px-8">
@@ -49,4 +50,5 @@
 	</div>
 
 	<h1 class="roboto-normal py-2 ps-4 text-5xl">Tim Kemmis</h1>
+	<Separator />
 </div>
