@@ -53,20 +53,30 @@
 	<h1 class="roboto-normal py-2 ps-4 text-5xl">Tim Kemmis</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
-	<div class="flex h-[50vh] items-center justify-end">
-		<div class="flex h-1/2 flex-col justify-center">
-			<Card.Root class="">
-				<Card.Header>
-					<Card.Title>Card Title</Card.Title>
-					<Card.Description>Card Description</Card.Description>
-				</Card.Header>
-				<Card.Content>
-					<p>Card Content</p>
-				</Card.Content>
-				<Card.Footer>
-					<p>Card Footer</p>
-				</Card.Footer>
-			</Card.Root>
-		</div>
+	<div class="flex h-[80vh] items-center justify-end">
+		<Card.Root class="flex h-3/4 w-3/4 flex-col justify-stretch">
+			<Card.Header>
+				<Card.Title>Engineer && Hobbist && Full-Stack Dad</Card.Title>
+				<Card.Description
+					>I enjoy solving complex problems with a pinch of originality and a healthy helping of
+					simple</Card.Description
+				>
+			</Card.Header>
+			<Card.Content>
+				<p>Hello There. 👋</p>
+				<p>I'm Tim. I've built reliable and dependable systems for industry for over 3 years.</p>
+				<p>
+					I currently spend my time professionally in the world of full-stack web development. I
+					enjoy the variety and diversity of being able to work on something different each day, and
+					have a special love for the challenges of backend.
+				</p>
+			</Card.Content>
+			<Card.Footer>
+				<p>
+					Unfortunately I need to sleep sometimes so this site is still under contruction. Check
+					back soon to see the latest updates in the svelte rewrite.
+				</p>
+			</Card.Footer>
+		</Card.Root>
 	</div>
 </div>
