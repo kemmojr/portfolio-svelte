@@ -4,6 +4,10 @@
 	import * as Card from '$lib/components/ui/card/index';
 	import DotNetLogo from '$lib/components/SVGs/DotNetLogo.svelte';
 	import PythonLogo from '$lib/components/SVGs/PythonLogo.svelte';
+	import TypeScriptLogo from '$lib/components/SVGs/TypeScriptLogo.svelte';
+	import Tux from '$lib/components/SVGs/Tux.svelte';
+	import RustLogo from '$lib/components/SVGs/RustLogo.svelte';
+	import SvelteLogo from '$lib/components/SVGs/SvelteLogo.svelte';
 </script>
 
 <div class="sm:px-8">
@@ -56,7 +60,7 @@
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<div class="flex h-fit items-center justify-end">
-		<Card.Root class="flex h-3/4 w-3/4 flex-col justify-stretch">
+		<Card.Root class="q-full flex h-full flex-col justify-stretch md:h-3/4 md:w-3/4">
 			<Card.Header>
 				<Card.Title>Engineer && Hobbist && Full-Stack Dad</Card.Title>
 				<Card.Description
@@ -73,8 +77,8 @@
 					enjoy the variety and diversity of being able to work on something different each day, and
 					have a special love for the challenges of backend.
 				</p>
-				<div class="py-4"></div>
-				<div class="flex basis-1/2">
+				<div class="p-0 sm:py-4"></div>
+				<div class="invisible h-0 sm:visible sm:flex sm:h-fit sm:basis-1/2">
 					<p>
 						When not working, fatherhood is presenting me with a whole new set of challenges to
 						overcome 👶, from trying to stop a toddler from eating everything in sight, to trying to
@@ -94,29 +98,14 @@
 				</p>
 				<div class="flex items-center justify-center">
 					<div class="mt-8 grid h-3/4 w-3/4 grid-cols-4 gap-8">
-						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle"
-							><img alt="DotNet logo" src="dotnet-logo.png" class="size-8" /></Badge
-						> -->
 						<DotNetLogo class="h-8 w-8" />
 						<PythonLogo class="h-9 w-8" />
-						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<img alt="TypeScript logo" src="ts-logo-128.svg" class="size-8" />
-						</Badge>
-						<Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<img alt="Linux logo" src="Tux.svg.png" class="h-12 w-10" />
-						</Badge>
-						<Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<p class="text-4xl">💻</p>
-						</Badge>
-						<Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<img alt="Rust-Lang logo" src="rust-logo-32x32.png" class="size-8" />
-						</Badge>
-						<Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<img alt="Svelte logo" src="svelte-logo.png" class="h-9 w-8" />
-						</Badge>
-						<Badge variant="secondary" class="inline-flex justify-center align-middle">
-							<img alt="Red Berry Pi" src="berry-pie.jpg" class="h-9 w-8" />
-						</Badge> -->
+						<TypeScriptLogo class="h-8 w-8" />
+						<Tux class="h-10 w-8" />
+						<p class="text-4xl">💻</p>
+						<RustLogo class="h-8 w-8" />
+						<SvelteLogo class="h-10 w-8" />
+						<p class="text-4xl">⌨️</p>
 					</div>
 					<div></div>
 				</div></Card.Content
