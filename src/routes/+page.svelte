@@ -2,7 +2,7 @@
 	import * as Menubar from '$lib/components/ui/menubar';
 	import { Separator } from '$lib/components/ui/separator/index';
 	import * as Card from '$lib/components/ui/card/index';
-	import { Badge } from '$lib/components/ui/badge/index.js';
+	import DotNetLogo from '$lib/components/SVGs/DotNetLogo.svelte';
 	import PythonLogo from '$lib/components/SVGs/PythonLogo.svelte';
 </script>
 
@@ -97,6 +97,7 @@
 						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle"
 							><img alt="DotNet logo" src="dotnet-logo.png" class="size-8" /></Badge
 						> -->
+						<DotNetLogo class="h-8 w-8" />
 						<PythonLogo class="h-9 w-8" />
 						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle">
 							<img alt="TypeScript logo" src="ts-logo-128.svg" class="size-8" />
