@@ -3,6 +3,7 @@
 	import { Separator } from '$lib/components/ui/separator/index';
 	import * as Card from '$lib/components/ui/card/index';
 	import { Badge } from '$lib/components/ui/badge/index.js';
+	import PythonLogo from '$lib/components/SVGs/PythonLogo.svelte';
 </script>
 
 <div class="sm:px-8">
@@ -23,7 +24,7 @@
 					<Menubar.Item
 						>UoN
 						<Menubar.Shortcut
-							><img alt="University of newcastle logo" src="./uon.ico" /></Menubar.Shortcut
+							><img alt="University of newcastle logo" src="uon.ico" /></Menubar.Shortcut
 						>
 					</Menubar.Item>
 				</Menubar.Content>
@@ -34,13 +35,13 @@
 					<Menubar.Item
 						>BISCIT
 						<Menubar.Shortcut
-							><img class="size-4" alt="BISCIT logo" src="./biscit.png" /></Menubar.Shortcut
+							><img class="size-4" alt="BISCIT logo" src="biscit.png" /></Menubar.Shortcut
 						>
 					</Menubar.Item>
 					<Menubar.Item
 						>GTICK
 						<Menubar.Shortcut
-							><img class="size-4" alt="GTICK Systems logo" src="./gtick.png" /></Menubar.Shortcut
+							><img class="size-4" alt="GTICK Systems logo" src="gtick.png" /></Menubar.Shortcut
 						>
 					</Menubar.Item>
 				</Menubar.Content>
@@ -84,7 +85,7 @@
 					<p>
 						I also enjoy getting into the guts of computers and upgrading them with better hardware
 						and upgrading the OS tothe much superior Linux
-						<img alt="arch linux logo" class="inline-block size-6" src="./Arch-linux-logo.png" />
+						<img alt="arch linux logo" class="inline-block size-6" src="Arch-linux-logo.png" />
 					</p>
 				</div>
 				<Separator class="mb-8 mt-4" />
@@ -93,30 +94,28 @@
 				</p>
 				<div class="flex items-center justify-center">
 					<div class="mt-8 grid h-3/4 w-3/4 grid-cols-4 gap-8">
-						<Badge variant="outline" class="inline-flex justify-center align-middle"
-							><img alt="DotNet logo" src="./dotnet-logo.png" class="size-8" /></Badge
-						>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="Python logo" src="./python-logo.png" class="h-9 w-8" />
+						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle"
+							><img alt="DotNet logo" src="dotnet-logo.png" class="size-8" /></Badge
+						> -->
+						<PythonLogo class="h-9 w-8" />
+						<!-- <Badge variant="secondary" class="inline-flex justify-center align-middle">
+							<img alt="TypeScript logo" src="ts-logo-128.svg" class="size-8" />
 						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="TypeScript logo" src="./ts-logo-128.svg" class="size-8" />
+						<Badge variant="secondary" class="inline-flex justify-center align-middle">
+							<img alt="Linux logo" src="Tux.svg.png" class="h-12 w-10" />
 						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="Linux logo" src="./Tux.svg.png" class="h-12 w-10" />
-						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
+						<Badge variant="secondary" class="inline-flex justify-center align-middle">
 							<p class="text-4xl">💻</p>
 						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="Rust-Lang logo" src="./rust-logo-32x32.png" class="size-8" />
+						<Badge variant="secondary" class="inline-flex justify-center align-middle">
+							<img alt="Rust-Lang logo" src="rust-logo-32x32.png" class="size-8" />
 						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="Svelte logo" src="./svelte-logo.png" class="h-9 w-8" />
+						<Badge variant="secondary" class="inline-flex justify-center align-middle">
+							<img alt="Svelte logo" src="svelte-logo.png" class="h-9 w-8" />
 						</Badge>
-						<Badge variant="outline" class="inline-flex justify-center align-middle">
-							<img alt="Svelte logo" src="./berry-pie.jpg" class="h-9 w-8" />
-						</Badge>
+						<Badge variant="secondary" class="inline-flex justify-center align-middle">
+							<img alt="Red Berry Pi" src="berry-pie.jpg" class="h-9 w-8" />
+						</Badge> -->
 					</div>
 					<div></div>
 				</div></Card.Content
