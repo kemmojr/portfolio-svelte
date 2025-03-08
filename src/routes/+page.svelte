@@ -55,7 +55,7 @@
 	<h1 class="roboto-normal py-2 ps-4 text-5xl">Tim Kemmis</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
-	<div class="flex h-[80vh] items-center justify-end">
+	<div class="flex h-fit items-center justify-end">
 		<Card.Root class="flex h-3/4 w-3/4 flex-col justify-stretch">
 			<Card.Header>
 				<Card.Title>Engineer && Hobbist && Full-Stack Dad</Card.Title>
