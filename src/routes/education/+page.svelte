@@ -11,6 +11,7 @@
 		<Card.Root class="q-full flex h-full flex-col justify-stretch md:h-3/4 md:w-3/4">
 			<Card.Header>
 				<Card.Title>Bachelor of Computer Science 🎓</Card.Title>
+				<Card.Description class="font-bold">2019-2023</Card.Description>
 				<Card.Description>The most expensive piece of paper I have ever earnt</Card.Description>
 			</Card.Header>
 			<Card.Content>
