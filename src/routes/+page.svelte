@@ -13,8 +13,8 @@
 	<h1 class="roboto-normal mt-1 w-1/2 py-2 ps-4 text-5xl">Tim Kemmis</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
-	<div class="flex h-fit items-center justify-end">
-		<Card.Root class="q-full flex h-full flex-col justify-stretch md:h-3/4 md:w-3/4">
+	<div class="flex h-fit items-center justify-end overflow-y-auto">
+		<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4">
 			<Card.Header>
 				<Card.Title>Engineer && Hobbist && Full-Stack Dad</Card.Title>
 				<Card.Description

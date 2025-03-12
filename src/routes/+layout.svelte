@@ -5,13 +5,14 @@
 	import { Button, buttonVariants } from '$lib/components/ui/button';
 	import { Menu } from '@lucide/svelte';
 	import { Label } from '$lib/components/ui/label/index';
+	import { CircleX } from '@lucide/svelte';
 
 	let { children } = $props();
 </script>
 
 <div class="visible mb-1 sm:invisible sm:size-0">
 	<Drawer.Root>
-		<div class="fixed right-4 mt-4 flex justify-end">
+		<div class="fixed right-4 top-4 flex justify-end">
 			<Drawer.Trigger class=""><Menu class="size-12" /></Drawer.Trigger>
 		</div>
 		<Drawer.Content>
@@ -34,9 +35,16 @@
 					</Button>
 				</a>
 			</Drawer.Close>
+			<Drawer.Close>
+				<a id="experience" href="/experience">
+					<Button variant="outline" class="m-2 w-3/4">
+						<Label class="text-2xl" for="experience">Experience 🛠️</Label>
+					</Button>
+				</a>
+			</Drawer.Close>
 
 			<Drawer.Footer>
-				<Drawer.Close class={buttonVariants({ variant: 'outline' })}>Cancel</Drawer.Close>
+				<Drawer.Close class={buttonVariants({ variant: 'outline' })}><CircleX /></Drawer.Close>
 			</Drawer.Footer>
 		</Drawer.Content>
 	</Drawer.Root>
