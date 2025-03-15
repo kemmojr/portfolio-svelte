@@ -38,7 +38,7 @@
 			<Drawer.Close>
 				<a id="experience" href="/experience">
 					<Button variant="outline" class="m-2 w-3/4">
-						<Label class="text-2xl" for="experience">Experience 🛠️</Label>
+						<Label class="text-2xl" for="experience">Experience 💼</Label>
 					</Button>
 				</a>
 			</Drawer.Close>
@@ -78,18 +78,22 @@
 		<Menubar.Menu>
 			<Menubar.Trigger>Experience</Menubar.Trigger>
 			<Menubar.Content>
-				<Menubar.Item
-					>BISCIT
-					<Menubar.Shortcut
-						><img class="size-4" alt="BISCIT logo" src="biscit.png" /></Menubar.Shortcut
-					>
-				</Menubar.Item>
-				<Menubar.Item
-					>GTICK
-					<Menubar.Shortcut
-						><img class="size-4" alt="GTICK Systems logo" src="gtick.png" /></Menubar.Shortcut
-					>
-				</Menubar.Item>
+				<a href="/experience#biscit">
+					<Menubar.Item
+						>BISCIT
+						<Menubar.Shortcut
+							><img class="size-4" alt="BISCIT logo" src="biscit.png" /></Menubar.Shortcut
+						>
+					</Menubar.Item>
+				</a>
+				<a href="/experience#gtick">
+					<Menubar.Item
+						>GTICK
+						<Menubar.Shortcut
+							><img class="size-4" alt="GTICK Systems logo" src="gtick.png" /></Menubar.Shortcut
+						>
+					</Menubar.Item>
+				</a>
 			</Menubar.Content>
 		</Menubar.Menu>
 		<Menubar.Menu>
