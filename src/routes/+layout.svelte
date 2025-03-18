@@ -42,6 +42,13 @@
 					</Button>
 				</a>
 			</Drawer.Close>
+			<Drawer.Close>
+				<a id="projects" href="/projects">
+					<Button variant="outline" class="m-2 w-3/4">
+						<Label class="text-2xl" for="projects">Projects 🎮</Label>
+					</Button>
+				</a>
+			</Drawer.Close>
 
 			<Drawer.Footer>
 				<Drawer.Close class={buttonVariants({ variant: 'outline' })}><CircleX /></Drawer.Close>
@@ -49,34 +56,20 @@
 		</Drawer.Content>
 	</Drawer.Root>
 </div>
-<div class="invisible size-0 sm:visible sm:size-fit">
+<div class="invisible flex size-0 w-full justify-center sm:visible">
 	<Menubar.Root>
 		<Menubar.Menu>
-			<Menubar.Trigger>About</Menubar.Trigger>
-			<Menubar.Content>
-				<a href="/">
-					<Menubar.Item
-						>Tim
-						<Menubar.Shortcut>👨‍💻</Menubar.Shortcut>
-					</Menubar.Item>
-				</a>
-			</Menubar.Content>
+			<a href="/">
+				<Menubar.Trigger>About 👨‍💻</Menubar.Trigger>
+			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
-			<Menubar.Trigger>Education</Menubar.Trigger>
-			<Menubar.Content>
-				<a href="/education">
-					<Menubar.Item
-						>UoN
-						<Menubar.Shortcut
-							><img alt="University of newcastle logo" src="uon.ico" /></Menubar.Shortcut
-						>
-					</Menubar.Item>
-				</a>
-			</Menubar.Content>
+			<a href="/education">
+				<Menubar.Trigger>Education 🎓</Menubar.Trigger>
+			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
-			<Menubar.Trigger>Experience</Menubar.Trigger>
+			<Menubar.Trigger>Experience 💼</Menubar.Trigger>
 			<Menubar.Content>
 				<a href="/experience#biscit">
 					<Menubar.Item
@@ -97,7 +90,9 @@
 			</Menubar.Content>
 		</Menubar.Menu>
 		<Menubar.Menu>
-			<Menubar.Trigger>Projects</Menubar.Trigger>
+			<a href="/projects">
+				<Menubar.Trigger>Projects 🎮</Menubar.Trigger>
+			</a>
 		</Menubar.Menu>
 	</Menubar.Root>
 </div>
