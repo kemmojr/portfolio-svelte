@@ -3,12 +3,12 @@
 	import * as Card from '$lib/components/ui/card/index';
 </script>
 
-<div class="sm:px-8">
+<div class="my-6 sm:px-8">
 	<h1 class="roboto-normal py-2 ps-4 text-5xl">Education</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
-	<div class="flex h-fit items-center justify-end">
-		<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4">
+	<div class="flex h-fit items-center justify-start">
+		<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-1/2 md:w-1/2">
 			<Card.Header>
 				<Card.Title>Bachelor of Computer Science 🎓</Card.Title>
 				<Card.Description class="font-bold">2019-2023</Card.Description>

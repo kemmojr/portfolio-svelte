@@ -6,6 +6,7 @@
 	import { Menu } from '@lucide/svelte';
 	import { Label } from '$lib/components/ui/label/index';
 	import { CircleX } from '@lucide/svelte';
+	import Separator from '$lib/components/ui/separator/separator.svelte';
 
 	let { children } = $props();
 </script>
@@ -69,25 +70,9 @@
 			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
-			<Menubar.Trigger>Experience 💼</Menubar.Trigger>
-			<Menubar.Content>
-				<a href="/experience#biscit">
-					<Menubar.Item
-						>BISCIT
-						<Menubar.Shortcut
-							><img class="size-4" alt="BISCIT logo" src="biscit.png" /></Menubar.Shortcut
-						>
-					</Menubar.Item>
-				</a>
-				<a href="/experience#gtick">
-					<Menubar.Item
-						>GTICK
-						<Menubar.Shortcut
-							><img class="size-4" alt="GTICK Systems logo" src="gtick.png" /></Menubar.Shortcut
-						>
-					</Menubar.Item>
-				</a>
-			</Menubar.Content>
+			<a href="/experience#biscit">
+				<Menubar.Trigger>Experience 💼</Menubar.Trigger>
+			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
 			<a href="/projects">
@@ -96,4 +81,5 @@
 		</Menubar.Menu>
 	</Menubar.Root>
 </div>
+<Separator class="mb-8 w-1/2" />
 {@render children()}

@@ -4,7 +4,7 @@
 </script>
 
 <div class="sm:px-8">
-	<h1 class="roboto-normal py-2 ps-4 text-5xl">Experience</h1>
+	<h1 class="roboto-normal py-8 ps-4 text-5xl">Experience</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<div class="flex h-fit flex-col items-center justify-end">

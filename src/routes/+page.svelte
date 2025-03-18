@@ -9,7 +9,7 @@
 	import SvelteLogo from '$lib/components/SVGs/SvelteLogo.svelte';
 </script>
 
-<div class="sm:px-8">
+<div class="my-6 sm:px-8">
 	<h1 class="roboto-normal mt-1 w-1/2 py-2 ps-4 text-5xl">Tim Kemmis</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
