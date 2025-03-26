@@ -101,7 +101,7 @@
 </script>
 
 <div class="flex flex-col items-center md:px-8">
-	<h1 class="roboto-normal ps-4 text-5xl">Experience</h1>
+	<h1 class="roboto-normal ps-4 text-5xl">Projects</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 
