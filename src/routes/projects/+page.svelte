@@ -100,14 +100,14 @@
 	};
 </script>
 
-<div class="my-6 flex flex-col items-center sm:px-8">
-	<h1 class="roboto-normal py-2 ps-4 text-5xl">Projects</h1>
+<div class="flex flex-col items-center md:px-8">
+	<h1 class="roboto-normal ps-4 text-5xl">Experience</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 
 	{#each projects as proj}
 		<div class="flex h-fit flex-col items-center justify-end sm:w-1/2">
-			<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4" id="biscit">
+			<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4">
 				<Card.Header>
 					<Card.Title>{proj.name} {proj.image}</Card.Title>
 					<Card.Description class="font-bold"

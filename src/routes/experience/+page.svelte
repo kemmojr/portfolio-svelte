@@ -3,12 +3,12 @@
 	import * as Card from '$lib/components/ui/card/index';
 </script>
 
-<div class="sm:px-8">
-	<h1 class="roboto-normal py-8 ps-4 text-5xl">Experience</h1>
+<div class="flex flex-col items-center sm:px-8">
+	<h1 class="roboto-normal ps-4 text-5xl">Experience</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<div class="flex h-fit flex-col items-center justify-end">
-		<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4" id="biscit">
+		<Card.Root class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 			<Card.Header>
 				<Card.Title>Biscit</Card.Title>
 				<Card.Description class="font-bold">Mar 2024 - Present</Card.Description>
@@ -51,7 +51,7 @@
 				<Separator class="mt-4" /></Card.Content
 			>
 		</Card.Root>
-		<Card.Root class="flex h-full w-full flex-col justify-stretch md:h-3/4 md:w-3/4" id="gtick">
+		<Card.Root class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 			<Card.Header>
 				<Card.Title>GTICK</Card.Title>
 				<Card.Description class="font-bold">July 2021 - Feb 2024</Card.Description>
