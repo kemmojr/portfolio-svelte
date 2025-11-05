@@ -8,7 +8,7 @@
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<div class="flex h-fit flex-col items-center justify-end">
-		<Card.Root class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
+		<Card.Root id="biscit" class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 			<Card.Header>
 				<Card.Title>Biscit</Card.Title>
 				<Card.Description class="font-bold">Mar 2024 - Present</Card.Description>
@@ -51,13 +51,11 @@
 				<Separator class="mt-4" /></Card.Content
 			>
 		</Card.Root>
-		<Card.Root class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
+		<Card.Root id="gtick" class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 			<Card.Header>
 				<Card.Title>GTICK</Card.Title>
 				<Card.Description class="font-bold">July 2021 - Feb 2024</Card.Description>
-				<Card.Description
-					>ERP Software Bespoke software development for heavy industry</Card.Description
-				>
+				<Card.Description>Bespoke software development for heavy industry</Card.Description>
 			</Card.Header>
 			<Card.Content>
 				<p>
