@@ -7,15 +7,17 @@
 	import Tux from '$lib/components/SVGs/Tux.svelte';
 	import RustLogo from '$lib/components/SVGs/RustLogo.svelte';
 	import SvelteLogo from '$lib/components/SVGs/SvelteLogo.svelte';
+	import Name from '$lib/components/SVGs/Name.svelte';
 </script>
 
 <div class="flex flex-col items-center md:px-8">
-	<h1 class="roboto-normal ps-4 text-5xl">Tim Kemmis</h1>
+	<!-- <h1 class="roboto-normal ps-4 text-3xl">Tim Kemmis</h1> -->
+	<Name class="my-0.5 self-start rounded-md bg-black p-1" />
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<Card.Root class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 		<Card.Header>
-			<Card.Title>Engineer && Hobbist && Full-Stack Dad</Card.Title>
+			<Card.Title>Engineer | Hobbist | Full-Stack Dad</Card.Title>
 			<Card.Description
 				>I enjoy solving complex problems with a pinch of originality and a healthy helping of
 				simple</Card.Description
@@ -23,7 +25,7 @@
 		</Card.Header>
 		<Card.Content>
 			<p>Hello There. 👋</p>
-			<p>I'm Tim. I've built reliable and dependable systems for industry for over 3 years.</p>
+			<p>I'm Tim. I've built reliable and dependable systems for industry for over 5 years.</p>
 			<Separator class="my-4 w-3/4" />
 			<p>
 				I currently spend my time professionally in the world of full-stack web development 🍔. I

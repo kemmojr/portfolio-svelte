@@ -14,7 +14,7 @@
 <div class="visible mb-1 sm:invisible sm:size-0">
 	<Drawer.Root>
 		<div class="fixed right-4 top-4 flex justify-end">
-			<Drawer.Trigger class=""><Menu class="size-12" /></Drawer.Trigger>
+			<Drawer.Trigger class=""><Menu class="size-12 " /></Drawer.Trigger>
 		</div>
 		<Drawer.Content>
 			<Drawer.Header>
@@ -57,29 +57,36 @@
 		</Drawer.Content>
 	</Drawer.Root>
 </div>
-<div class="invisible flex size-0 w-full justify-center sm:visible">
+<div class="invisible flex size-0 w-full justify-end sm:visible">
 	<Menubar.Root>
 		<Menubar.Menu>
 			<a href="/">
-				<Menubar.Trigger>About 👨‍💻</Menubar.Trigger>
+				<Menubar.Trigger class="cursor-pointer px-8 py-2 font-medium hover:bg-slate-200"
+					>About 👨‍💻</Menubar.Trigger
+				>
 			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
 			<a href="/education">
-				<Menubar.Trigger>Education 🎓</Menubar.Trigger>
+				<Menubar.Trigger class="cursor-pointer px-8 py-2 font-medium hover:bg-slate-200"
+					>Education 🎓</Menubar.Trigger
+				>
 			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
-			<a href="/experience#biscit">
-				<Menubar.Trigger>Experience 💼</Menubar.Trigger>
+			<a href="/experience">
+				<Menubar.Trigger class="cursor-pointer px-8 py-2 font-medium hover:bg-slate-200"
+					>Experience 💼</Menubar.Trigger
+				>
 			</a>
 		</Menubar.Menu>
 		<Menubar.Menu>
 			<a href="/projects">
-				<Menubar.Trigger>Projects 🎮</Menubar.Trigger>
+				<Menubar.Trigger class="cursor-pointer px-8 py-2 font-medium hover:bg-slate-200"
+					>Projects 🎮</Menubar.Trigger
+				>
 			</a>
 		</Menubar.Menu>
 	</Menubar.Root>
 </div>
-<Separator class="mb-8 w-1/2" />
 {@render children()}

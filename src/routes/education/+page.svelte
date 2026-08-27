@@ -3,8 +3,8 @@
 	import * as Card from '$lib/components/ui/card/index';
 </script>
 
-<div class="flex flex-col items-center sm:px-8">
-	<h1 class="roboto-normal ps-4 text-5xl">Education</h1>
+<div class="mt-20 flex flex-col items-center sm:px-8">
+	<h1 class="roboto-normal sr-only ps-4 text-3xl">Education</h1>
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<Card.Root class="flex h-full w-full flex-col justify-stretch md:size-2/5">
