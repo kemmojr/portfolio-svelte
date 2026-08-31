@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Separator } from '$lib/components/ui/separator/index';
 	import * as Card from '$lib/components/ui/card/index';
+	import Name from '$lib/components/SVGs/Name.svelte';
 	type Project = {
 		startDate: Date;
 		endDate?: Date;
@@ -101,7 +102,7 @@
 </script>
 
 <div class="flex flex-col items-center md:px-8">
-	<h1 class="roboto-normal ps-4 text-5xl">Projects</h1>
+	<Name class="my-0.5 self-start rounded-md bg-black p-1" />
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 

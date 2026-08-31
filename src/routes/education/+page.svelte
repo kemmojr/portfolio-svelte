@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { Separator } from '$lib/components/ui/separator/index';
 	import * as Card from '$lib/components/ui/card/index';
+	import Name from '$lib/components/SVGs/Name.svelte';
 </script>
 
-<div class="mt-20 flex flex-col items-center sm:px-8">
-	<h1 class="roboto-normal sr-only ps-4 text-3xl">Education</h1>
+<div class=" flex flex-col items-center sm:px-8">
+	<Name class="my-0.5 self-start rounded-md bg-black p-1" />
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<Card.Root class="flex h-full w-full flex-col justify-stretch md:size-2/5">

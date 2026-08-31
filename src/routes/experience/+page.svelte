@@ -1,17 +1,18 @@
 <script lang="ts">
 	import { Separator } from '$lib/components/ui/separator/index';
 	import * as Card from '$lib/components/ui/card/index';
+	import Name from '$lib/components/SVGs/Name.svelte';
 </script>
 
 <div class="flex flex-col items-center sm:px-8">
-	<h1 class="roboto-normal ps-4 text-5xl">Experience</h1>
+	<Name class="my-0.5 self-start rounded-md bg-black p-1" />
 	<Separator class="w-3/4" />
 	<div class="h-4"></div>
 	<div class="flex h-fit flex-col items-center justify-end">
 		<Card.Root id="biscit" class="flex h-full w-full flex-col justify-stretch md:mb-6 md:size-2/5">
 			<Card.Header>
 				<Card.Title>Biscit</Card.Title>
-				<Card.Description class="font-bold">Mar 2024 - Present</Card.Description>
+				<Card.Description class="font-bold">Mar 2024 - Nov 2025</Card.Description>
 				<Card.Description>ERP Software Product Development using agile processes</Card.Description>
 			</Card.Header>
 			<Card.Content>
@@ -21,8 +22,8 @@
 				</p>
 				<Separator class="my-4 w-3/4" />
 				<p>
-					Two of the products that I have worked on are: RMS - a rental management system, and EKW -
-					A warehousing app for handheld scanners to integrate with Epicor Kinetic.👷‍♂️
+					Two of the products that I worked on were; RMS - a rental management system, and EKW - A
+					warehousing app for handheld scanners to integrate with Epicor Kinetic.👷‍♂️
 				</p>
 
 				<div class="p-0 sm:py-4"></div>
@@ -36,10 +37,10 @@
 					<Separator orientation="vertical" class="mx-4" />
 
 					<p>
-						More recently I have spent my time working with the team behind EKW, BISCIT's flagship
-						product working with a mature development pipeline optimised for stability. Working in
-						this team has sharpened my knowledge of Angular and allowed me to gain a deeper
-						understanding of Epicor's inner workings.
+						In the latter half of my time at biscit I spent my time working with the team behind
+						EKW, BISCIT's flagship product working with a mature development pipeline optimised for
+						stability. Working in this team sharpened my knowledge of CI/CD and allowed me to gain a
+						deeper understanding of how to ship stable software.
 					</p>
 				</div>
 				<Separator class="my-4 w-3/4" />
