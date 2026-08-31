@@ -1,0 +1,8 @@
+node_modules
+build
+.svelte-kit
+.git
+.kamal
+Dockerfile
+.dockerignore
+README.md
